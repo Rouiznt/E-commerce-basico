@@ -13,20 +13,16 @@ export const ProductCard = ({ producto }) => {
 
       <h3>{title}</h3>
 
-      {/* Precio  */}
       <p style={{ textDecoration: "line-through" }}>
         ${price}
       </p>
 
-      {/* Precio con descuento */}
-      <p>
+      <p style={{ color: "green", fontWeight: "bold" }}>
         ${precioConDescuento}
       </p>
 
-      {/* Porcentaje */}
       <p>-{discountPercentage}%</p>
 
-      {/* calificacion */}
       <p>⭐ {rating}</p>
     </div>
   );

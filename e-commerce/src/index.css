@@ -1,22 +1,6 @@
 .productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.productos div {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-button {
-  margin: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-.productos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 
@@ -24,4 +8,10 @@ button {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
