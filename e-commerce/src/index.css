@@ -1,0 +1,10 @@
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.productos div {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
